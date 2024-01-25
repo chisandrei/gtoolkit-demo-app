@@ -14,7 +14,7 @@ NonInteractiveTranscript stdout install.
     onWarningLog;
     baseline: 'GtDemoApp';
     onConflictUseIncoming;
-    repository: 'github://feenkcom/gtoolkit-demo-app:' , version , '/src';
+    repository: 'github://chisandrei/gtoolkit-demo-app:' , version , '/src';
     load.
 ] ensure: [ 
     GtTranscript installDefault.
